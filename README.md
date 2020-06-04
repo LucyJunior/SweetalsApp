@@ -75,15 +75,19 @@ description: String
 })
 
 Recipe ({ title: String, required: true, minlength: 6, maxlength: 10,
-Description: String, required: true, minlength: 20, maxlength: 50.
+Cooking time: String, required true,
+Number of people : Number, required true,
+Description: String, required: true, minlength: 50, maxlength: 300.
 })
 
 
 ## Links
 Trello
 [GitHub](https://trello.com/b/1R27fQRH/sweetals)
+
 Git
 Repository Link
 [GitHub] (https://lucyjunior.github.io/SweetalsApp/)
+
 Deploy Link
 Slides
