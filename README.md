@@ -59,11 +59,26 @@ recipe details - By clicking on a recipe in the recipe list the user has acces t
 * POST /flowers/:flowersID/:recipeID/delete
 * GET /logout
 
-..
+
 
 
 ## Models
-User model
+
+User new Schema ({fullName: String, required:true, 
+email: String, required: true,
+password: String, minlength: 6, maxlength: 10
+favorite:        , required: true, })
+
+FlowerSchema ({ name: String,
+family: String,
+description: String
+})
+
+Recipe ({ title: String, required: true, minlength: 6, maxlength: 10,
+Description: String, required: true, minlength: 20, maxlength: 50.
+})
+
+
 ## Links
 Trello
 [GitHub](https://trello.com/b/1R27fQRH/sweetals)
