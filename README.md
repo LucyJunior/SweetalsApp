@@ -72,8 +72,8 @@ recipe details - By clicking on a recipe in the recipe list the user has acces t
 
 User new Schema ({fullName: String, required:true, 
 email: String, required: true,
-password: String, minlength: 6, maxlength: 10
-favorite:        , required: true, })
+password: String, minlength: 6, maxlength: 10, required: true
+favorite:  Array *type: Schema object Id* })
 
 FlowerSchema ({ name: String,
 family: String,
@@ -81,9 +81,10 @@ description: String
 })
 
 Recipe ({ title: String, required: true, minlength: 6, maxlength: 10,
-Cooking time: String, required true,
-Number of people : Number, required true,
+Cooking time: Number, required true,
+Number of people : Number, required: true,
 Description: String, required: true, minlength: 50, maxlength: 300.
+Flower ingredients: Array *type: Schema object Id* 
 })
 
 
@@ -93,7 +94,7 @@ Trello
 
 Git
 Repository Link
-[GitHub] (https://lucyjunior.github.io/SweetalsApp/)
+[GitHub] (https://github.com/LucyJunior/SweetalsApp)
 
 Deploy Link
 Slides
