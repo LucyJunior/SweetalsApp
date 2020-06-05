@@ -1,7 +1,4 @@
 # SweetalsApp
-Sweetals about our app
-lalala
-# Sweetals
 ## Description
  Sweetals is an app about recipes including edibles flowers, those recipes add some colors to the table in a very original way.
  Some recipes are already there to use and the rest are create by all the users who had created an account in it.
