@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# SweetalsApp
+Sweetals about our app
+lalala
+>>>>>>> origin/master
 # Sweetals
 ## Description
  Sweetals is an app about recipes including edibles flowers, those recipes add some colors to the table in a very original way.
